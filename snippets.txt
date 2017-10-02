@@ -1,6 +1,9 @@
+IF using git make sure to add the remote repo (empty). then clone it to the sass-basics-start folder. Then after getting files to a starting point add, commit, and push.
+
+
 watch videos in this order 02-01 - 02-06, 03-03 - 03-05, ALL OF 04
 
-start at video 02-01 - nested selectors..that is where style.scss - COMPLETE is at..so start with style.scss and complete up until it matches styles- COMPLETE. Then at that point start following the vids starting at 02-01
+start at video 02-01 - nested selectors..that is where style.scss - COMPLETE is at..*****so start with style.scss and complete it up until it matches styles- COMPLETE!!! Then at that point start following the vids starting at 02-01
 
 just use 4 partial files: helpers, main-styles., mixins and variables..the teacher adds many more in 03-01 but dont do it
 
