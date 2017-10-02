@@ -150,6 +150,12 @@ footer {
     color: $color-primary-light;
 }
 
+@each $theme, $color in $themes {
+    .icn-#{$theme} {
+        color: $color !important;
+    }
+}
+ 
 %btn {
     color: $white;
     display: inline-block;

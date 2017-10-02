@@ -1,3 +1,5 @@
+run npm install since package.json has all the dependencies
+
 IF using git make sure to add the remote repo (empty) first. then clone it to the sass-basics-start folder. Then after getting files to a starting point add, commit, and push.
 
 
