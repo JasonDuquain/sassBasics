@@ -1,0 +1,151 @@
+@import 'partials/variables', 
+        'partials/mixins',
+        'partials/helpers',
+        'partials/main-styles',
+        '../../../../../bower_components/breakpoint-sass/stylesheets/breakpoint';
+
+@include breakpoint-set('to ems', true);
+
+/* BASE ------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: $color-text;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: $font-stack-primary;
+    text-align: center;
+    margin: 0;
+}
+
+h1,
+h2 {
+  font-family: $font-stack-secondary;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+      
+}
+
+/* HEADER & FOOTER -------------------------------- */
+
+header {
+      
+}
+
+header::after {
+    content: '';
+  
+} 
+
+header h1 {
+      
+}
+
+header p {
+      
+}
+
+footer {
+          
+}
+
+footer::before {
+    content: '';
+  
+} 
+
+/* CONTAINERS ------------------------------------- */
+
+.inner {
+      
+}
+
+.intro {
+      
+}
+
+/* COMPONENTS ------------------------------------- */
+
+.main-nav {
+      
+}
+
+.img-featured {
+      
+}
+
+.card {
+      
+}
+
+.card h1 {
+    
+}
+
+.btn-info {
+      
+}
+
+.material-icons {
+    
+}
+
+/* MEDIA QUERIES ---------------------------------- */
+
+@include breakpoint(max-width 575px) {
+    
+  header {
+        
+  }
+    
+  header h1 {
+        
+  }
+    
+  .img-featured {
+        
+  }
+    
+}
+
+@include breakpoint(576px) {
+    
+  .main-content {
+        
+  }  
+    
+  .card {
+        
+  }
+    
+}
+
+@include breakpoint(768px) {
+    
+  .main-content {
+          
+  }
+    
+}
+
+@include breakpoint(992px) {
+    
+  header {
+        
+  }
+    
+  .intro {
+        
+  }
+    
+}
