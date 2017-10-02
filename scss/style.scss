@@ -117,7 +117,7 @@ footer {
         padding: .5em;
         
         &:hover {
-            color: darken($white, 30);
+            color: darken($white, 60);
         }
     }
 }
@@ -148,7 +148,10 @@ footer {
     }
 }
 
-
+.material-icons {
+    font-size: 2.35em;
+    color: $color-primary-light;
+}
 
 %btn {
     color: $white;
@@ -216,7 +219,7 @@ footer {
   }  
     
   .card {
-      flex: 1;  
+      flex: 1 per-line(2);  
   }
     
 }
@@ -225,6 +228,10 @@ footer {
     
   .main-content {
       @include center;     
+  }
+    
+    .card {
+      flex: 1 per-line(3);  
   }
     
 }

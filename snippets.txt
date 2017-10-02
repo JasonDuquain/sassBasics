@@ -1,4 +1,4 @@
-IF using git make sure to add the remote repo (empty). then clone it to the sass-basics-start folder. Then after getting files to a starting point add, commit, and push.
+IF using git make sure to add the remote repo (empty) first. then clone it to the sass-basics-start folder. Then after getting files to a starting point add, commit, and push.
 
 
 watch videos in this order 02-01 - 02-06, 03-03 - 03-05, ALL OF 04
